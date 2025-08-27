@@ -6,4 +6,5 @@ on:
 jobs:
   call-shared:
     uses: e-laute/E-LAUTE_GH_Actions/.github/workflows/run_validation.yml@main
-
+    secrets:
+      ORG_SECRET: HAHA
